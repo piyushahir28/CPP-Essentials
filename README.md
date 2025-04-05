@@ -1,6 +1,6 @@
 # CPP-Essentials
 
-CPP from Zero toHero
+CPP from Zero to Hero
 
 ## Topics
 
