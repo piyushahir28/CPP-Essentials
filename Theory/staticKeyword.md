@@ -64,7 +64,7 @@ int main() {
 
 ```
 
-4. **Static Member Function**: A function that can be called without creating an object of the class. It can only access static member variables.
+4. **Static Member Function in a Class**: A function that can be called without creating an object of the class. It can only access static member variables.
 
 ```cpp
 class MyClass {
