@@ -2,13 +2,13 @@
 
 In C++, default arguments are values given in function declarations that are used if no value is passed during the function call.
 
-## Syntax:
+**Syntax:**
 
 ```c++
 void functionName(int a, int b = 10);  // b has a default value
 ```
 
-## Example:
+**Example:**
 
 ```c++
 #include <iostream>
