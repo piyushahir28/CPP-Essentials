@@ -20,7 +20,7 @@
   cout << ref; // ❌ Undefined behavior! ref now refers to deleted memory
   ```
 
-  - eferencing a Local Variable (Dangling Reference):
+  - Referencing a Local Variable (Dangling Reference):
 
   ```c++
   int& getRef() {
@@ -33,3 +33,7 @@
   cout << r; // Undefined behavior
   }
   ```
+
+- **What's the difference between `char* str = "abc"` and `char str[] = "abc"`?**
+  - `char*` points to a string literal (read-only).
+  - `char[]` copies it into an array (modifiable).
