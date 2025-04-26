@@ -86,7 +86,7 @@ void func(int arr[]) {
   int arr[5];
   int (*ptr)[5] = &arr;  // Points to the whole array
 
-  cout << (\*ptr)[2]; // Access 3rd element
+  cout << (*ptr)[2]; // Access 3rd element
   ```
 
 | Term            | Meaning                        |
