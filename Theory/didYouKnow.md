@@ -35,5 +35,10 @@
   ```
 
 - **What's the difference between `char* str = "abc"` and `char str[] = "abc"`?**
+
   - `char*` points to a string literal (read-only).
   - `char[]` copies it into an array (modifiable).
+
+- **Inline Definition of Static Data Member in C++**: Normally, in C++, static data members are declared inside a class, but they must be defined outside the class separately (in .cpp file).
+
+  ✅ Since C++17, we can define and initialize static members inside the class itself → this is called Inline Definition.
