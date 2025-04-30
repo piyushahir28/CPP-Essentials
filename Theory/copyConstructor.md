@@ -119,6 +119,16 @@ int main() {
 >
 > **Assignment Operator:** You already have two papers, now you're replacing the content of one with the other.
 
+## Situations When Copy Constructor is Called
+
+| Scenario                                            | Example Code           | Description                                  |
+| --------------------------------------------------- | ---------------------- | -------------------------------------------- |
+| 1. Passing an object **by value** to a function     | `func(obj);`           | A copy is made for the function parameter.   |
+| 2. Returning an object **by value** from a function | `return obj;`          | Returning a local object by value.           |
+| 3. Initializing one object from another             | `MyClass obj2 = obj1;` | obj2 created by copying obj1.                |
+| 4. Explicit copy construction                       | `MyClass obj2(obj1);`  | Alternative syntax to copy constructor call. |
+| 5. STL containers (e.g., `std::vector`)             | `v.push_back(obj);`    | Copying elements inside containers.          |
+
 ## Interview Q&A:
 
 **Q1: What happens if you don’t define a copy constructor?**  
