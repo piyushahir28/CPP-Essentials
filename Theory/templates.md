@@ -80,6 +80,8 @@ int main() {
 }
 ```
 
+> If you specialize a class template, you must re-define all required members (data and methods) in that specialization—even constructors—because it doesn't inherit from the primary template.
+
 ### 4. Variadic Templates (C++11 and above)
 
 ```cpp
